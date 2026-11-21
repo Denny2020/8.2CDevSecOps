@@ -3,6 +3,10 @@
 pipeline {
     agent any
 
+    options {
+        skipDefaultCheckout(true) // Checkout stage below does the only clone
+    }
+
     stages {
         stage('Checkout') {
             steps {
