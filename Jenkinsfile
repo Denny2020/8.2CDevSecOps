@@ -1,5 +1,4 @@
 // SIT753 6.1C - Part 1 Task 2: npm-based security tests over nodejs-goof.
-// Replace Denny2020 before use.
 pipeline {
     agent any
 
